@@ -1,0 +1,20 @@
+
+.addTask {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+}
+.checkBox {
+    background-color: aqua;
+    width: 20px;
+}
+/* .inputBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.newTaskBox {
+    background-color: green;
+    display: flex;
+    width: 430px;
+}

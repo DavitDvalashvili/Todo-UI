@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import logo from "./assets/logo.svg"
+import TaskContainer from "./components/TaskContainer";
 import './App.css';
 
 function App() {
+  const currentTime = new Date().toLocaleString('en-US', {
+    hour: 'numeric',
+    minute: 'numeric',
+    hour12: true
+  });
+  
+  const currentDate = new Date().toLocaleString('en-US', {
+    weekday: 'short',
+    day: 'numeric'
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img srcSet={logo} alt="logo"/>
+      <div className="container">
+        <div className="header">
+          <time>{currentTime}</time>
+          <data>{currentDate}</data>
+        </div>
+      </div>
+      <TaskContainer/>
     </div>
   );
 }
