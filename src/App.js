@@ -23,7 +23,7 @@ function App() {
           <data>{currentDate}</data>
         </div>
       </div>
-      <TaskContainer/>
+      <TaskContainer currentTime={currentTime}/>
     </div>
   );
 }
