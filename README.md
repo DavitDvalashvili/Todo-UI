@@ -10,22 +10,27 @@
 - [Deployment](#Deployment)
 - [Author](#Author)
 
-#
-
 ### Prerequisites
 
-- <img src="readme/npm.png" width="25" style="top: 8px" /> _npm @8 and up_
-- <img src="readme/js.png" width="25" style="top: 8px" /> \_javascript es6
-- <img src="readme/vite.jpg" width="25" style="top: 8px" /> \_vite @4.0.0
+- <img src="public/readme/npm.png" width="25" style="top: 8px" /> _npm @8 and up_
+- <img src="public/readme/js.png" width="25" style="top: 8px" /> \_javascript es6
+- <img src="public/readme/vite.jpg" width="25" style="top: 8px" /> \_vite @4.0.0
 
 #
 
 ### Tech Stack
 
-- <img src="readme/React.png" width="25" style="top: 8px" /> _ReactJS @18.1.0 - frontend framework_
-- <img src="readme/tailwind.png" width="25" style="top: 8px" /> _Tailwind CSS v3.0 - visual primitives for the component age_
+- <img src="public/readme/React.png" width="25" style="top: 8px" /> _ReactJS @18.1.0 - frontend framework_
+- <img src="public/readme/tailwind.png" width="25" style="top: 8px" /> _Tailwind CSS v3.0 - visual primitives for the component age_
 
-#
+### Interaction
+
+Users should be able to:
+
+- See hover states for all interactive elements on the page
+- Add new todos to the list
+- Mark todos as complete
+- Delete todos from the list
 
 ### Screenshot
 
@@ -34,7 +39,7 @@
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/DavitDvalashvili/Todo-UI)
-- Live Site URL: [Add live site URL here](https://interactive-rating-component-one-virid.vercel.app/)
+- Live Site URL: [Add live site URL here](https://todo-ui-eight.vercel.app/)
 
 ### Getting Started
 
@@ -87,4 +92,6 @@ after this you can use this file to deploy project on server.
 
 ### Author
 
-- [LinkedIn](https://www.linkedin.com/in/giorgi-silagadze-3bb522257/)
+- Github profile - [Add your name here](https://github.com/DavitDvalashvili)
+- Linkedin profile - [Add your name here](https://www.linkedin.com/in/davit-dvalashvili-0421b6253)
+- Email - [@your_username](davitdvalashvili1996@gmail.com)
