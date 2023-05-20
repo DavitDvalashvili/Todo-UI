@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Dictionary-web-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Table of Contents
 
-## Available Scripts
+- [Prerequisites](#Prerequisites)
+- [Tech Stack](#Tech-Stack)
+- [Screenshot](#Screenshot)
+- [Getting Started](#Getting-Started)
+- [Project Structure](#Project-Structure)
+- [Deployment](#Deployment)
+- [Author](#Author)
 
-In the project directory, you can run:
+#
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- <img src="readme/npm.png" width="25" style="top: 8px" /> _npm @8 and up_
+- <img src="readme/js.png" width="25" style="top: 8px" /> \_javascript es6
+- <img src="readme/vite.jpg" width="25" style="top: 8px" /> \_vite @4.0.0
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#
 
-### `npm test`
+### Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- <img src="readme/React.png" width="25" style="top: 8px" /> _ReactJS @18.1.0 - frontend framework_
+- <img src="readme/tailwind.png" width="25" style="top: 8px" /> _Tailwind CSS v3.0 - visual primitives for the component age_
 
-### `npm run build`
+#
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![](./public/desktop-preview.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+- Solution URL: [Add solution URL here](https://github.com/DavitDvalashvili/Todo-UI)
+- Live Site URL: [Add live site URL here](https://interactive-rating-component-one-virid.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. First of all you need to clone app repository from github:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+git clone https://github.com/giorgisilagadze/dictionary-web-app-React.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Next step requires install all the dependencies.
 
-## Learn More
+```
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. To see project in action
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm run dev
+```
 
-### Code Splitting
+#
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Project Structure
 
-### Analyzing the Bundle Size
+```
+|--- src
+| |--- components # reusable components
+| |--- App.jsx # main page
+| |--- index.css # global styles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- package.json # dependency manager configurations
+- tailwind.config.js # CSS configuration
+- vite.config.js # fast build tool
+```
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Before every deployment you need to create build file.
 
-### `npm run build` fails to minify
+```
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+after this you can use this file to deploy project on server.
+
+#
+
+### Author
+
+- [LinkedIn](https://www.linkedin.com/in/giorgi-silagadze-3bb522257/)

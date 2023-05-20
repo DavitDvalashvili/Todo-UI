@@ -1,5 +1,5 @@
 import logo from "./assets/logo.svg"
-import TaskContainer from "./components/TaskContainer";
+import Taskscontainer from "./components/Taskscontainer";
 import './App.css';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
           <time className="text-5xl leading-[58px]">{currentTime}</time>
         </div>
       </div>
-      <TaskContainer currentTime={currentTime}/>
+      <Taskscontainer currentTime={currentTime}/>
       </div>
     </div>
   );

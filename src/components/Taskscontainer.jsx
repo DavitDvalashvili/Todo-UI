@@ -3,7 +3,7 @@ import plus from "../assets/plus.svg";
 import Task from "./Task";
 import { useState } from "react";
 
-export default function TaskContainer(props) {
+export default function Taskscontainer(props) {
   const [inputValue, setInputValue] = useState("");
   const [tasks, setTasks] = useState("");
 
