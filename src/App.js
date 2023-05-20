@@ -15,15 +15,17 @@ function App() {
   });
 
   return (
-    <div className="App">
-      <img srcSet={logo} alt="logo"/>
-      <div className="container">
-        <div className="header">
-          <time>{currentTime}</time>
-          <data>{currentDate}</data>
+    <div className="App flex justify-center items-center gap-[296px] bg-[#eeeeee]">
+      <img srcSet={logo} alt="logo" className="w-[263px] h-[116px]"/>
+      <div>
+      <div className="container flex justify-end pb-[13px] pr-[28px] h-[202px] w-[430px]">
+        <div className="header flex flex-col justify-end text-right text-white">
+          <data className="text-lg leading-[22px]">{currentDate}</data>
+          <time className="text-5xl leading-[58px]">{currentTime}</time>
         </div>
       </div>
       <TaskContainer currentTime={currentTime}/>
+      </div>
     </div>
   );
 }

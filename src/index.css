@@ -1,0 +1,6 @@
+*{
+    box-sizing: border-box;
+}
+body, #root, .App {
+    height: 100vh;
+}
