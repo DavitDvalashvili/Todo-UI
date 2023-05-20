@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/DavitDvalashvili/Todo-UI)
-- Live Site URL: [Add live site URL here](https://todo-ui-eight.vercel.app/)
+- Live Site URL: [Add live site URL here](https://todo-app-ui-seven.vercel.app/)
 
 ### Getting Started
 
