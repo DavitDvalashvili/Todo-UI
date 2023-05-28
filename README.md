@@ -1,4 +1,4 @@
-# Dictionary-web-app
+# Todo-UI
 
 ### Table of Contents
 
@@ -46,7 +46,7 @@ Users should be able to:
 1. First of all you need to clone app repository from github:
 
 ```
-git clone https://github.com/giorgisilagadze/dictionary-web-app-React.git
+git clone https://github.com/DavitDvalashvili/Todo-UI.git
 ```
 
 2. Next step requires install all the dependencies.
